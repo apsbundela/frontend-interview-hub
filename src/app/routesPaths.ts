@@ -1,6 +1,6 @@
 export const ROUTES = {
   HOME: '/',
-  COMPANY: '/company/:companyId',
-  EXPERIENCE: '/experiences/:id',
+  COMPANY: '/companies/:companyId',
+  EXPERIENCE: '/experiences/:experienceId',
   ABOUT: '/about',
 } as const;

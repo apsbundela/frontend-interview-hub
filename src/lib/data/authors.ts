@@ -13,6 +13,12 @@ const authors: Author[] = [
     headline: 'Immediate Joiner | 1M+ LinkedIn impressions | 4 Yr Exp |',
     sourceUrl: 'https://www.linkedin.com/in/nikhilsharma28/',
   },
+  {
+    id: 'apporva-arya',
+    name: 'Apporva Arya',
+    headline: 'MEAN developer SDE 2 - Ex Bounteous x Accolite | Ex - Amdocs | Angular',
+    sourceUrl: 'https://www.linkedin.com/in/apporva-arya/',
+  },
 ];
 
 export default authors;

@@ -3,4 +3,5 @@ export interface Author {
   name: string;
   headline?: string;
   sourceUrl: string;
+  avatarUrl?: string;
 }

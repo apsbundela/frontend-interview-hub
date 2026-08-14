@@ -2,7 +2,7 @@ import type { InterviewExperience } from '../../types/interviewExperience';
 
 const experiences: InterviewExperience[] = [
   {
-    id: 'exp-ntt-data-1',
+    id: 'exp-ntt-data',
     companyId: 'ntt-data',
     authorId: 'apporva-arya',
     experienceYears: '3+ YOE',
@@ -40,7 +40,7 @@ const experiences: InterviewExperience[] = [
       'https://www.linkedin.com/posts/apporva-arya_nttdata-frontendinterview-angularinterview-share-7490631400262479874-RYJ9/',
   },
   {
-    id: 'exp-tata-elxsi-1',
+    id: 'exp-tata-elxsi',
     companyId: 'tata-elxsi',
     authorId: 'mansi-goyal',
     experienceYears: '4 YOE',
@@ -70,7 +70,7 @@ const experiences: InterviewExperience[] = [
       'https://www.linkedin.com/posts/mansi-goyal-1a1912121_reactjs-javascript-frontenddevelopment-activity-7471974700055855105-iGQK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC-md-oBom5CyBpoX3AJw_iuJz-5DCNjdtQ',
   },
   {
-    id: 'exp-ey-1',
+    id: 'exp-ey',
     companyId: 'ey',
     authorId: 'mansi-goyal',
     experienceYears: '4 YOE',
@@ -94,7 +94,7 @@ const experiences: InterviewExperience[] = [
       'https://www.linkedin.com/posts/mansi-goyal-1a1912121_reactjs-frontenddeveloper-javascript-activity-7476180246795300864-p8cj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC-md-oBom5CyBpoX3AJw_iuJz-5DCNjdtQ',
   },
   {
-    id: 'exp-deloitte-1',
+    id: 'exp-deloitte',
     companyId: 'deloitte',
     authorId: 'nikhil-sharma',
     experienceYears: '4 YOE',

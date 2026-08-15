@@ -11,4 +11,5 @@ export interface InterviewExperience {
   sourcePublishedAt: string;
   sections: InterviewSection[];
   sourceUrl: string;
+  embedUrl: string;
 }

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { getAuthorById } from '../../lib/services/authorService';
 import type { Author } from '../../types/author';
 
-export const useAuthor = (authorId: string) => {
+export const useAuthor = (authorId: string | undefined) => {
   const [data, setData] = useState<Author | undefined>();
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);

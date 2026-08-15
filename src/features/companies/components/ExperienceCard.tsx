@@ -60,7 +60,10 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
         </span>
         <span className="flex items-center gap-1 font-mono text-xs text-text-tertiary">
           {totalQuestions} questions
-          <ChevronRight size={14} className="text-text-tertiary transition-colors group-hover:text-accent" />
+          <ChevronRight
+            size={14}
+            className="text-text-tertiary transition-colors group-hover:text-accent"
+          />
         </span>
       </div>
     </Link>

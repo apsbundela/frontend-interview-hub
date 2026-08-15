@@ -38,6 +38,8 @@ const experiences: InterviewExperience[] = [
     ],
     sourceUrl:
       'https://www.linkedin.com/posts/apporva-arya_nttdata-frontendinterview-angularinterview-share-7490631400262479874-RYJ9/',
+    embedUrl:
+      'https://www.linkedin.com/embed/feed/update/urn:li:share:7490631400262479874?collapsed=1',
   },
   {
     id: 'exp-tata-elxsi',
@@ -68,6 +70,8 @@ const experiences: InterviewExperience[] = [
     ],
     sourceUrl:
       'https://www.linkedin.com/posts/mansi-goyal-1a1912121_reactjs-javascript-frontenddevelopment-activity-7471974700055855105-iGQK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC-md-oBom5CyBpoX3AJw_iuJz-5DCNjdtQ',
+    embedUrl:
+      'https://www.linkedin.com/embed/feed/update/urn:li:share:7471974699355496448?collapsed=1',
   },
   {
     id: 'exp-ey',
@@ -92,6 +96,8 @@ const experiences: InterviewExperience[] = [
     ],
     sourceUrl:
       'https://www.linkedin.com/posts/mansi-goyal-1a1912121_reactjs-frontenddeveloper-javascript-activity-7476180246795300864-p8cj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC-md-oBom5CyBpoX3AJw_iuJz-5DCNjdtQ',
+    embedUrl:
+      'https://www.linkedin.com/embed/feed/update/urn:li:share:7476180246225113088?collapsed=1',
   },
   {
     id: 'exp-deloitte',
@@ -144,6 +150,8 @@ const experiences: InterviewExperience[] = [
     ],
     sourceUrl:
       'https://www.linkedin.com/posts/nikhilsharma28_deloitte-interviewexperience-frontenddeveloper-share-7485187100175187968-DXiV/?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAC-md-oBom5CyBpoX3AJw_iuJz-5DCNjdtQ&utm_campaign=copy_link',
+    embedUrl:
+      'https://www.linkedin.com/embed/feed/update/urn:li:share:7485187100175187968?collapsed=1',
   },
 ];
 

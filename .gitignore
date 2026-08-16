@@ -27,3 +27,7 @@ dist-ssr
 data.txt
 PROJECT_CONTEXT.md
 README.md
+
+#environment file
+.env
+.env.*

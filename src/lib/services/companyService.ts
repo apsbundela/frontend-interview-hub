@@ -1,10 +1,20 @@
-import companies from '../data/companies';
 import type { Company } from '../../types/company';
+import { supabase } from '../supabase/client';
 
 export async function getCompanyById(companyId: string): Promise<Company | undefined> {
-  return companies.find((c) => c.id === companyId);
+  const { data, error } = await supabase
+    .from('companies')
+    .select('id, name, description, logoUrl:logo_url')
+    .eq('id', companyId)
+    .maybeSingle();
+  if (error) throw error;
+  return data ?? undefined;
 }
 
 export async function getAllCompanies(): Promise<Company[]> {
-  return companies;
+  const { data, error } = await supabase
+    .from('companies')
+    .select('id, name, description, logoUrl:logo_url');
+  if (error) throw error;
+  return data ?? [];
 }
